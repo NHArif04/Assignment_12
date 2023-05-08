@@ -1,0 +1,153 @@
+body {
+  background-color: #05f7394d;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.bmi-image {
+  display: block;
+  margin: auto;
+  width: 300px;
+  height: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #4CAF50;
+}
+
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input[type="number"] {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+select {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#result {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgb(7, 44, 68);
+  border-radius: 10px;
+}
+
+.compass {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+
+.needle {
+  position: absolute;
+  top: calc(50% - 3px);
+  left: calc(50% - 1px);
+  width: 2px;
+  height: 60px;
+  background-color: black;
+  transform-origin: bottom;
+  transition: transform 500ms ease-in-out;
+}
+
+.range {
+  position: absolute;
+  top: calc(50% - 100px);
+  left: calc(50% - 100px);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.range1 {
+  background-color: #b2df8a;
+  transform-origin: center;
+  transform: rotate(90deg) scaleX(0.6);
+}
+
+.range2 {
+  background-color: #b2df8a;
+  transform-origin: center;
+  transform: rotate(45deg) scaleX(0.6);
+}
+
+.range3 {
+  background-color: #b2df8a;
+  transform-origin: center;
+  transform: rotate(0deg) scaleX(0.6);
+}
+
+.range4 {
+  background-color: #b2df8a;
+  transform-origin: center;
+  transform: rotate(45deg) scaleX(0.6);
+}
+
+.range5 {
+  background-color: #b3df8a;
+  transform-origin: center;
+  transform: rotate(90deg) scaleX(0.6);
+}
+
+.range6 {
+  background-color: #b3df8a;
+  transform-origin: center;
+  transform: rotate(125deg) scaleX(0.6);
+}
+
+
+.bmi-value {
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+}
+
+.red {
+  color: #ff6961;
+}
+
+.orange {
+  color: #ff9c5a;
+}
+
+.yellow {
+  color: #fdd835;
+}
+
+.light-green {
+  color: #b2df8a;
+}
+
+.green {
+  color: #b3df8a;
+}
